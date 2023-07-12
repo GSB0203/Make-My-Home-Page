@@ -29,10 +29,18 @@ font-size: 24px;
 
 .bar .nav-items {
   display: flex;
-  gap: 20px;
-  flex: 1;
-  justify-content: space-evenly;
+  align-items: center;
 }
+
+.bar .logo-wrapper {
+  margin-right: 8px;
+}
+
+.bar .logo {
+  width: 20px;
+  height: 20px;
+}
+
 
 #home {
   display : flex;
